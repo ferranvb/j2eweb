@@ -13,7 +13,7 @@ public class Test {
 			System.out.println(p.getName());
 			System.out.println(p.getHours());
 			for (Scientist s: p.getScientists()) {
-				System.out.println("   :::::::::::" + s.getName());
+				System.out.println("   :::::::::::" + s.getName() + " --> " + s.getSsn());
 			}
 		}
 
